@@ -17,7 +17,7 @@ with open('file_dz4.txt', 'r', encoding='-utf8') as f:
         new_file.append(rus[i[0]] + '  ' + i[1])
         print(new_file)
 
-with open('file_dz4_new.txt', 'w') as f2:
+with open('file_dz4_new.txt', 'w', encoding='-utf8') as f2:
     f2.writelines(new_file)
 
 #content = my_f.readlines()
